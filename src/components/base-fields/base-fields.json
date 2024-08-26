@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_base_fields_base_fields",
+  "info": {
+    "displayName": "Base Fields"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "primaryAction": {
+      "type": "string"
+    }
+  }
+}

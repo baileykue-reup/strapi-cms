@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "saved_programs",
+  "info": {
+    "singularName": "saved-program",
+    "pluralName": "saved-programs",
+    "displayName": "Saved Programs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "noFavorites": {
+      "type": "dynamiczone",
+      "components": [
+        "base-fields.base-fields"
+      ]
+    },
+    "sort": {
+      "type": "json"
+    },
+    "toast": {
+      "type": "json"
+    }
+  }
+}
